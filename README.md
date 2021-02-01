@@ -257,6 +257,61 @@ Functions are like magical spells, they do a specified thing and be used anytime
 
 
 
+### Javascript (using NodeJS)
+```
+// x is parameter variable that will receive the first argument
+function addOne(x){
+    //the return value is what the function gives back when its done
+    return x + 1
+}
+
+//Several invocations of the function passing different arguments
+const result1 = addOne(1)
+console.log(result1)
+
+const result2 = addOne(2)
+console.log(result2)
+```
+### Ruby
+```
+def addOne x
+    return x + 1
+end
+
+result1 = addOne 1
+puts result1
+
+result2 = addOne 2
+puts result2
+```
+### Python
+```
+def addOne(x):
+    return x + 1
+
+result1 = addOne(1)
+print(result1)
+
+result2 = addOne(2)
+print(result2)
+```
+### PHP
+```
+<?php
+function addOne(x){
+    return x + 1;
+}
+
+$result1 = addOne(1);
+echo $result1;
+
+$result2 = addOne(2);
+echo $result2;
+
+?>
+```
+
+
 
 ## Conclusion
 Hopefully, this gives you a nice starting place in any of these languages. Here are some topics to look up and try out as you grow your ability in these languages.
@@ -264,4 +319,6 @@ Hopefully, this gives you a nice starting place in any of these languages. Here 
 * string manipulation (concatenation, interpolation, etc.)
 * array/list manipulation (adding, removing, finding items)
 * classes and object-oriented programing
+
+
 Then once you get really comfortable with any of the languages try building a web application with a web framework. These come in minimalist and opinionated flavors. Below is a table showing you the main frameworks for each language.
