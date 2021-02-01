@@ -21,10 +21,10 @@ You will generally interact with a programming language via your command line sh
 Table
 | Language  | File Extension | run script command  | Pkg Mgr | Dep List  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Javascript  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Python  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Ruby  | Content Cell  | Content Cell  | Content Cell 
-
+| Javascript  | .js  | node file.js  | npm  | package.json  |
+| Python  | .py  | python file.py  | pip  | requirements.txt  |
+| Ruby  | .rb  | ruby file.rb  | Gems  | Gemfile  |
+| PHP  | .php  | php file.php  | composer  | composer.json  | 
 
 
 
