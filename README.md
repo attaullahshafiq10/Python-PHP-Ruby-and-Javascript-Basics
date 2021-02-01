@@ -43,7 +43,8 @@ puts "hello world"
 print("Hello World")
 ```
 ### PHP
-```<?php
+```
+<?php
 
 echo "hello world";
 ?>
@@ -107,3 +108,94 @@ echo $my_boolean;
 
 ## Conditionals
 What makes a script useful isn't just being able to outline a sequence of actions but having those actions alter based on the state of the data involved. If statements allow us to ask, is this true? Then choose what our script does based on whether it is true or false.
+
+### Javascript (using NodeJS)
+```
+let number = 6
+
+if (number > 5){
+    console.log(true)
+} else {
+    console.log(false)
+}
+
+```
+### Ruby
+```
+number = 6
+
+if number > 5
+    puts true
+else
+    puts false
+end
+```
+### Python
+```
+number = 6
+
+if (number > 5):
+    print(True)
+else:
+    print(False)
+```
+### PHP
+```
+<?php
+$number = 6
+
+if ($number > 5){
+    echo true;
+} else {
+    echo false;
+}
+?>
+```
+
+
+## Loops
+What if you need to repeat a task several times, it would be very tedious to type it over and over again. For this situation, we have loops that will repeat a set of instructions as long as an expression is true and stop once it becomes false.
+
+### Javascript (using NodeJS)
+```
+let counter = 0
+
+while (count < 10){
+    console.log(count)
+    count = count + 1
+}
+```
+### Ruby
+```
+counter = 0
+
+while counter < 10
+    puts counter
+    counter = counter + 1
+end
+```
+### Python
+```
+counter = 0
+
+while (counter < 10):
+    print(counter)
+    counter = counter + 1
+```
+### PHP
+```
+<?php
+$counter = 0;
+
+while($counter < 10){
+    echo counter;
+    $counter = $counter + 1
+}
+?>
+```
+
+## Collections
+A Collection is a data structure in a language that can hold multiple values. They generally fall into one of two categories.
+
+* An ordered list of values accessibly by a numerical index starting at 0
+* A list of values access by a "key" which is usually a string/symbol
