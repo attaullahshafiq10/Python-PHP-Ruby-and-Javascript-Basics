@@ -56,3 +56,47 @@ There are different types of data:
 4. nothing - the absence of value called null, nil, undefined, etc.
 
 We can store these values in little cubby holes called variables we can then use to refer to the value.
+
+### Javascript (using NodeJS)
+```
+let myString = "Hello World"
+let myNumber = 5
+let myBool = true
+
+console.log(myString)
+console.log(myNumber)
+console.log(myBool)
+```
+### Ruby
+```
+my_string = "Hello World"
+my_number = 5
+my_boolean = true
+
+puts my_string
+puts my_number
+puts my_boolean
+```
+### Python
+```
+my_string = "Hello World"
+my_number = 5
+my_boolean = True
+
+print(my_string)
+print(my_number)
+print(my_boolean)
+```
+### PHP
+```
+<?php
+
+$my_string = "Hello World";
+$my_number = 5;
+$my_boolean = true;
+
+echo $my_string;
+echo $my_number;
+echo $my_boolean;
+?>
+```
