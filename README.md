@@ -321,4 +321,4 @@ Hopefully, this gives you a nice starting place in any of these languages. Here 
 * classes and object-oriented programing
 
 
-Then once you get really comfortable with any of the languages try building a web application with a web framework. These come in minimalist and opinionated flavors. Below is a table showing you the main frameworks for each language.
+Then once you get really comfortable with any of the languages try building a web application with a web framework. These come in minimalist and opinionated flavors. 
