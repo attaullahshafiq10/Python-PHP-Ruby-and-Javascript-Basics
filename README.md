@@ -19,11 +19,11 @@ After these building blocks, you'll be able to begin pushing yourself further an
 You will generally interact with a programming language via your command line shell (Bash on mac/linux, cmd/powershell/gitBash on windows). So once you have any of these languages on your computer you'll write files and run them with a command. We can't see what our code is doing visually beyond occasionally printing values to the console to assure us the program is following our instructions.
 
 Table
-| Language  | File Extension | First Header  | Second Header | First Header  |
+| Language  | File Extension | run script command  | Pkg Mgr | Dep List  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell 
+| Javascript  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Python  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Ruby  | Content Cell  | Content Cell  | Content Cell 
 
 
 
