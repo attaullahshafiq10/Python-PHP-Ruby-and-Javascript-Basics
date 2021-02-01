@@ -54,3 +54,5 @@ There are different types of data:
 2. Strings - a sequence of letters, text, and symbols usually within quotation marks
 3. Booleans - a value that can either represent true or false
 4. nothing - the absence of value called null, nil, undefined, etc.
+
+We can store these values in little cubby holes called variables we can then use to refer to the value.
