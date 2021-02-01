@@ -19,7 +19,10 @@ After these building blocks, you'll be able to begin pushing yourself further an
 You will generally interact with a programming language via your command line shell (Bash on mac/linux, cmd/powershell/gitBash on windows). So once you have any of these languages on your computer you'll write files and run them with a command. We can't see what our code is doing visually beyond occasionally printing values to the console to assure us the program is following our instructions.
 
 Table
-
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 
@@ -100,3 +103,6 @@ echo $my_number;
 echo $my_boolean;
 ?>
 ```
+
+## Conditionals
+What makes a script useful isn't just being able to outline a sequence of actions but having those actions alter based on the state of the data involved. If statements allow us to ask, is this true? Then choose what our script does based on whether it is true or false.
