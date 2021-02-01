@@ -18,7 +18,7 @@ After these building blocks, you'll be able to begin pushing yourself further an
 ## Printing Values to the Console
 You will generally interact with a programming language via your command line shell (Bash on mac/linux, cmd/powershell/gitBash on windows). So once you have any of these languages on your computer you'll write files and run them with a command. We can't see what our code is doing visually beyond occasionally printing values to the console to assure us the program is following our instructions.
 
-Table
+
 | Language  | File Extension | run script command  | Pkg Mgr | Dep List  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Javascript  | .js  | node file.js  | npm  | package.json  |
@@ -199,3 +199,10 @@ A Collection is a data structure in a language that can hold multiple values. Th
 
 * An ordered list of values accessibly by a numerical index starting at 0
 * A list of values access by a "key" which is usually a string/symbol
+
+| Language  | Using Numerical Index | Using Keys  |
+| ------------- | ------------- | ------------- |
+| Javascript  | Arrays  | Objects  |
+| Python  | List  | Dictionaries  |
+| Ruby  | Arrays  | Hashes  |
+| PHP  | Arrays  | Associative Arrays  | 
