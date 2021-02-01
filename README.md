@@ -206,3 +206,62 @@ A Collection is a data structure in a language that can hold multiple values. Th
 | Python  | List  | Dictionaries  |
 | Ruby  | Arrays  | Hashes  |
 | PHP  | Arrays  | Associative Arrays  | 
+
+
+### Javascript (using NodeJS)
+```
+let myArray = ["Alex Merced", 35]
+console.log(myArray[0])
+console.log(myArray[1])
+
+let myObject = {name: "Alex Merced", age: 35}
+console.log(myObject.name)
+console.log(myObject.age)
+```
+### Ruby
+```
+my_array = ["Alex Merced", 35]
+puts my_array[0]
+puts my_array[1]
+
+my_hash = {name: "Alex Merced", age: 35}
+puts my_hash[:name]
+puts my_hash[:age]
+```
+### Python
+```
+my_list = ["Alex Merced", 35]
+print(my_list[0])
+print(my_list[1])
+
+my_dictionary = {"name": "Alex Merced", "age": 35}
+print(my_dictionary["name"])
+print(my_dictionary["age"])
+```
+### PHP
+```
+<?php
+$my_array = ["Alex Merced", 35];
+echo $my_array[0];
+echo $my_array[1];
+
+$my_associative = ["name" => "Alex Merced", "age" => 35];
+echo $my_associative["name"];
+echo $my_associative["age"];
+?>
+```
+
+
+## Functions
+Functions are like magical spells, they do a specified thing and be used anytime and as many times as you want. Information can be given to functions in the form of arguments, and those arguments are stored in variables called parameters. Functions are key to doing powerful things in programming.
+
+
+
+
+## Conclusion
+Hopefully, this gives you a nice starting place in any of these languages. Here are some topics to look up and try out as you grow your ability in these languages.
+
+* string manipulation (concatenation, interpolation, etc.)
+* array/list manipulation (adding, removing, finding items)
+* classes and object-oriented programing
+Then once you get really comfortable with any of the languages try building a web application with a web framework. These come in minimalist and opinionated flavors. Below is a table showing you the main frameworks for each language.
