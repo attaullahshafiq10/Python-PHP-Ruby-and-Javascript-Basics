@@ -18,6 +18,13 @@ After these building blocks, you'll be able to begin pushing yourself further an
 ### Printing Values to the Console
 You will generally interact with a programming language via your command line shell (Bash on mac/linux, cmd/powershell/gitBash on windows). So once you have any of these languages on your computer you'll write files and run them with a command. We can't see what our code is doing visually beyond occasionally printing values to the console to assure us the program is following our instructions.
 
-#Languages | #File Extension | #run script command | #Pkg Mgr | #Dep List
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Table
+
+
+
+
+
+This is why the first program you always create is, Hello World.
+```
+console.log("Hello World")
+```
