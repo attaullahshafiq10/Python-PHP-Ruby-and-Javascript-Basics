@@ -44,3 +44,13 @@ print("Hello World")
 echo "hello world";
 ?>
 ```
+
+
+## Variables
+Programming is all about creating dynamic code. There are often values we may not know or may change overtime. Instead of hard coding these values and making our code more rigid we use variables to store and refer to the values in our code.
+
+There are different types of data:
+1. Numbers - numerical data that can be used in math expressions
+2. Strings - a sequence of letters, text, and symbols usually within quotation marks
+3. Booleans - a value that can either represent true or false
+4. nothing - the absence of value called null, nil, undefined, etc.
